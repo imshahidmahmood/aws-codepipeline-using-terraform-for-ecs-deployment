@@ -36,13 +36,13 @@ This repository contains Terraform configurations for setting up an AWS CodePipe
 
 
 ## How It Works
-    # Source Stage
+    Source Stage
     AWS CodeCommit is used as the source repository for the application code.
     The pipeline triggers automatically whenever there is a new commit to the specified branch.
-    # Build Stage
+    Build Stage
     AWS CodeBuild is used to build and test the application.
     The build specification is defined in the buildspec.yml file.
-    # Deploy Stage
+    Deploy Stage
     The final stage deploys the Docker image to Amazon ECS.
     The ECS service is automatically updated with the new image version.
 
