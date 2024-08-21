@@ -1,4 +1,4 @@
-# AWS CodePipeline with Terraform for ECS Deployment
+# AWS CodePipeline using Terraform for ECS Deployment
 
 This repository contains Terraform configurations for setting up an AWS CodePipeline that automates the deployment of an application to Amazon ECS. The pipeline consists of three stages: Source, Build, and Deploy.
 
