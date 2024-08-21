@@ -4,7 +4,7 @@ This repository contains Terraform configurations for setting up an AWS CodePipe
 
 ## Architecture Diagram
 
-![AWS Architecture Diagram](https://github.com/imshahidmahmood/kipina-tf-codepipeline/blob/main/AWS%20CodePipeline%20with%20Terraform%20for%20ECS%20Deployment.drawio.png)
+![AWS Architecture Diagram](https://github.com/imshahidmahmood/kipina-tf-codepipeline/blob/main/AWS%20CodePipeline%20with%20Terraform%20for%20ECS%20Deployment.drawio.png?raw=true)
 
 ## Project Structure
 
