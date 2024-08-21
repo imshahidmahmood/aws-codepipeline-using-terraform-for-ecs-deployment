@@ -9,7 +9,7 @@ This repository contains Terraform configurations for setting up an AWS CodePipe
 ## Project Structure
 
     ├── .vscode/ # VSCode configurations
-    ├── buildspec.yml # CodeBuild build specification
+    ├── buildspec.yml # CodeBuild build specification (the buildspec.yml should placed at the root directory in source(codecommit or github))
     ├── codebuild.tf # Terraform configuration for AWS CodeBuild
     ├── codecommit.tf # Terraform configuration for AWS CodeCommit
     ├── codepipeline.tf # Terraform configuration for AWS CodePipeline
@@ -41,7 +41,7 @@ This repository contains Terraform configurations for setting up an AWS CodePipe
     The pipeline triggers automatically whenever there is a new commit to the specified branch.
     Build Stage
     AWS CodeBuild is used to build and test the application.
-    The build specification is defined in the buildspec.yml file.
+    The build specification is defined in the buildspec.yml file. (the buildspec.yml should placed at the root directory in source(codecommit or github))
     Deploy Stage
     The final stage deploys the Docker image to Amazon ECS.
     The ECS service is automatically updated with the new image version.
