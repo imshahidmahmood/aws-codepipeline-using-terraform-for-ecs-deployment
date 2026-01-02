@@ -1,4 +1,4 @@
-# Terraform specific files
+# Terraform specific files 
 *.tfstate
 *.tfstate.*
 *.backup
